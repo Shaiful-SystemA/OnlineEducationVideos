@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 
 
 Route::get('/sidebar', function () {
@@ -36,4 +32,41 @@ Route::get('/full-width.html', function () {
 
 Route::get('/pricing', function () {
     return view('pricing');
+});
+
+
+
+
+
+Route::group(['middleware' => ['web']], function (){
+
+    Route::get('/', function () {
+        return view('welcome');
+    })->name('home');
+
+
+    Route::get('/Login', function () {
+        return view('LoginPage');
+    });
+
+
+    Route::post('/signup',[
+        'uses' => 'UserController@postSignup',
+        'as'=> 'signup'
+    ]);
+
+    Route::post('/signin',[
+        'uses' => 'UserController@postSignin',
+        'as'=> 'signin'
+    ]);
+
+
+    Route::get('/dashboard',[
+        'uses' => 'UserController@getDashBoard',
+        'as'=> 'dashboard',
+        'middleware' => 'auth'
+    ]);
+
+
+
 });
