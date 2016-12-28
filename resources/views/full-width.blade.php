@@ -183,8 +183,9 @@
                 <div class="thumbnail">
 
 
+                    <img src="{{asset('csharplogo1.jpg')}}">
 
-                    <img src="http://placehold.it/320x150" alt="">
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
                     <div class="caption">
                         <h4 class="pull-right"></h4>
                         <h4><a href="#">C#</a>
@@ -209,8 +210,9 @@
                 <div class="thumbnail">
 
 
+                    <img src="{{asset('Angular.jpg')}}">
 
-                    <img src="http://placehold.it/320x150" alt="">
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
                     <div class="caption">
                         <h4 class="pull-right"></h4>
                         <h4><a href="sidebar">AngularJS 1.5 & 2.0</a>
@@ -237,11 +239,12 @@
                 <div class="thumbnail">
 
 
+                    <img src="{{asset('UMLIcon.jpg')}}">
 
-                    <img src="http://placehold.it/320x150" alt="">
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
                     <div class="caption">
                         <h4 class="pull-right"></h4>
-                        <h4><a href="#">C#</a>
+                        <h4><a href="#">Unified Modelling Language</a>
                         </h4>
                         <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
                     </div>
@@ -264,11 +267,12 @@
                 <div class="thumbnail">
 
 
+                    <img src="{{asset('OOPS.jpg')}}">
 
-                    <img src="http://placehold.it/320x150" alt="">
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
                     <div class="caption">
                         <h4 class="pull-right"></h4>
-                        <h4><a href="#">C#</a>
+                        <h4><a href="#">Object Oriented Programming</a>
                         </h4>
                         <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
                     </div>
@@ -290,11 +294,12 @@
                 <div class="thumbnail">
 
 
+                    <img src="{{asset('sqlserveer2012.jpg')}}">
 
-                    <img src="http://placehold.it/320x150" alt="">
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
                     <div class="caption">
                         <h4 class="pull-right"></h4>
-                        <h4><a href="#">C#</a>
+                        <h4><a href="#">SQL Server training</a>
                         </h4>
                         <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
                     </div>
@@ -310,18 +315,120 @@
                     {{--</div>--}}
                     <a href="#" class="btn btn-default">Preview</a>
                 </div>
+
+
+                <div class="thumbnail">
+
+
+                    <img src="{{asset('MSBI.jpg')}}">
+
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
+                    <div class="caption">
+                        <h4 class="pull-right"></h4>
+                        <h4><a href="#">SQL Server training</a>
+                        </h4>
+                        <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                    </div>
+                    {{--<div class="ratings">--}}
+                    {{--<p class="pull-right">15 reviews</p>--}}
+                    {{--<p>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--</p>--}}
+                    {{--</div>--}}
+                    <a href="#" class="btn btn-default">Preview</a>
+                </div>
+
+                <div class="thumbnail">
+
+
+                    <img src="{{asset('MVC5.jpg')}}">
+
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
+                    <div class="caption">
+                        <h4 class="pull-right"></h4>
+                        <h4><a href="#">SQL Server training</a>
+                        </h4>
+                        <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                    </div>
+                    {{--<div class="ratings">--}}
+                    {{--<p class="pull-right">15 reviews</p>--}}
+                    {{--<p>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--</p>--}}
+                    {{--</div>--}}
+                    <a href="#" class="btn btn-default">Preview</a>
+                </div>
+
+                <div class="thumbnail">
+
+
+                    <img src="{{asset('Sharepoint.jpg')}}">
+
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
+                    <div class="caption">
+                        <h4 class="pull-right"></h4>
+                        <h4><a href="#">SQL Server training</a>
+                        </h4>
+                        <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                    </div>
+                    {{--<div class="ratings">--}}
+                    {{--<p class="pull-right">15 reviews</p>--}}
+                    {{--<p>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--</p>--}}
+                    {{--</div>--}}
+                    <a href="#" class="btn btn-default">Preview</a>
+                </div>
+
+                <div class="thumbnail">
+
+
+                    <img src="{{asset('sqlserveer2012.jpg')}}">
+
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
+                    <div class="caption">
+                        <h4 class="pull-right"></h4>
+                        <h4><a href="#">SQL Server training</a>
+                        </h4>
+                        <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                    </div>
+                    {{--<div class="ratings">--}}
+                    {{--<p class="pull-right">15 reviews</p>--}}
+                    {{--<p>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--</p>--}}
+                    {{--</div>--}}
+                    <a href="#" class="btn btn-default">Preview</a>
+                </div>
+
+
+
             </div>
 
 
             <div class="col-sm-4 col-lg-4 col-md-4">
                 <div class="thumbnail">
-
-
-
-                    <img src="http://placehold.it/320x150" alt="">
+                    <img src="{{asset('MSBI.jpg')}}">
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
                     <div class="caption">
                         <h4 class="pull-right"></h4>
-                        <h4><a href="#">C#</a>
+                        <h4><a href="#">Microsoft Business Intelligent</a>
                         </h4>
                         <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
                     </div>
@@ -337,13 +444,130 @@
                     {{--</div>--}}
                     <a href="#" class="btn btn-default">Preview</a>
                 </div>
+
+
+                <div class="thumbnail">
+                    <img src="{{asset('MSBI.jpg')}}">
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
+                    <div class="caption">
+                        <h4 class="pull-right"></h4>
+                        <h4><a href="#">Microsoft Business Intelligent</a>
+                        </h4>
+                        <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                    </div>
+                    {{--<div class="ratings">--}}
+                    {{--<p class="pull-right">15 reviews</p>--}}
+                    {{--<p>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--</p>--}}
+                    {{--</div>--}}
+                    <a href="#" class="btn btn-default">Preview</a>
+                </div>
+
+                <div class="thumbnail">
+                    <img src="{{asset('MSBI.jpg')}}">
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
+                    <div class="caption">
+                        <h4 class="pull-right"></h4>
+                        <h4><a href="#">Microsoft Business Intelligent</a>
+                        </h4>
+                        <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                    </div>
+                    {{--<div class="ratings">--}}
+                    {{--<p class="pull-right">15 reviews</p>--}}
+                    {{--<p>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--</p>--}}
+                    {{--</div>--}}
+                    <a href="#" class="btn btn-default">Preview</a>
+                </div>
+
+
+                <div class="thumbnail">
+                    <img src="{{asset('MSBI.jpg')}}">
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
+                    <div class="caption">
+                        <h4 class="pull-right"></h4>
+                        <h4><a href="#">Microsoft Business Intelligent</a>
+                        </h4>
+                        <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                    </div>
+                    {{--<div class="ratings">--}}
+                    {{--<p class="pull-right">15 reviews</p>--}}
+                    {{--<p>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--</p>--}}
+                    {{--</div>--}}
+                    <a href="#" class="btn btn-default">Preview</a>
+                </div>
+                <div class="thumbnail">
+                    <img src="{{asset('MSBI.jpg')}}">
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
+                    <div class="caption">
+                        <h4 class="pull-right"></h4>
+                        <h4><a href="#">Microsoft Business Intelligent</a>
+                        </h4>
+                        <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                    </div>
+                    {{--<div class="ratings">--}}
+                    {{--<p class="pull-right">15 reviews</p>--}}
+                    {{--<p>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--</p>--}}
+                    {{--</div>--}}
+                    <a href="#" class="btn btn-default">Preview</a>
+                </div>
+
+                <div class="thumbnail">
+                    <img src="{{asset('MSBI.jpg')}}">
+                    {{--<img src="http://placehold.it/320x150" alt="">--}}
+                    <div class="caption">
+                        <h4 class="pull-right"></h4>
+                        <h4><a href="#">Microsoft Business Intelligent</a>
+                        </h4>
+                        <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                    </div>
+                    {{--<div class="ratings">--}}
+                    {{--<p class="pull-right">15 reviews</p>--}}
+                    {{--<p>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--<span class="glyphicon glyphicon-star"></span>--}}
+                    {{--</p>--}}
+                    {{--</div>--}}
+                    <a href="#" class="btn btn-default">Preview</a>
+                </div>
+
+
+
+
             </div>
+
+
+
 
 
         </div>
 
-
-        </div>
+    </div>
 
 
 

@@ -38,6 +38,11 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>jwplayer.key="WQZkXeGNutSQQYaDb9W0rWMpKoFjlI17zmK9Cg==";</script>
+
+    <script type='text/javascript' src='https://content.jwplatform.com/libraries/42SqB9dO.js'></script>
+
+
 
 </head>
 
@@ -183,8 +188,20 @@
         </div>
 
 
-        <object data="http://www.youtube.com/embed/W7qWa52k-nE"
-                width="560" height="315"></object>
+        {{--<object data="http://www.youtube.com/embed/W7qWa52k-nE"--}}
+                {{--width="560" height="315"></object>--}}
+
+        <div id="bunny"></div>
+        <script type="text/javascript">
+            jwplayer("bunny").setup({
+                file: "rtmp://siet50qt11cpm.cloudfront.net/cfx/st/mp4:lab1simplehelloworld20minutes.mp4",
+                width: "720",
+                height: "480",
+                primary: "mp4"
+            });
+        </script>
+
+
 
     </div>
 

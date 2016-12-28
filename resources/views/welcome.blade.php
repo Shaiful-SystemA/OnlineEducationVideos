@@ -138,19 +138,22 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+            {{--<div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>--}}
+            <img src="{{asset('CarousePage1a.jpg')}}">
             <div class="carousel-caption">
                 <h2>Caption 1</h2>
             </div>
         </div>
         <div class="item">
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+            {{--<div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>--}}
+            <img src="{{asset('CarouselPage3.jpg')}}">
             <div class="carousel-caption">
                 <h2>Caption 2</h2>
             </div>
         </div>
         <div class="item">
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+            {{--<div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>--}}
+            <img src="{{asset('CarousePage2.jpg')}}">
             <div class="carousel-caption">
                 <h2>Caption 3</h2>
             </div>
@@ -188,10 +191,7 @@
 
         <div class="col-sm-4 col-lg-4 col-md-4">
             <div class="thumbnail">
-
-
-
-                <img src="http://placehold.it/320x150" alt="">
+                <img src="{{asset('csharplogo1.jpg')}}">
                 <div class="caption">
                     <h4 class="pull-right"></h4>
                     <h4><a href="#">C#</a>
@@ -216,7 +216,8 @@
 
         <div class="col-sm-4 col-lg-4 col-md-4">
             <div class="thumbnail">
-                <img src="http://placehold.it/320x150" alt="">
+                <img src="{{asset('VisualStudiotipsTricks.jpg')}}">
+                {{--<img src="http://placehold.it/320x150" alt="">--}}
                 <div class="caption">
                     <h4 class="pull-right"></h4>
                     <h4><a href="#">Visual Studio</a>
@@ -236,12 +237,10 @@
                 <a href="#" class="btn btn-default">Preview</a>
             </div>
         </div>
-
-
-
         <div class="col-sm-4 col-lg-4 col-md-4">
             <div class="thumbnail">
-                <img src="http://placehold.it/320x150" alt="">
+                {{--<img src="../../public/AngularIcon.jpg" alt="">--}}
+                <img src="{{asset('Angular.jpg')}}">
                 <div class="caption">
                     <h4 class="pull-right"></h4>
                     <h4><a href="sidebar">Angular</a>
@@ -264,10 +263,11 @@
 
         <div class="col-sm-4 col-lg-4 col-md-4">
             <div class="thumbnail">
-                <img src="http://placehold.it/320x150" alt="">
+                {{--<img src="http://placehold.it/320x150" alt="">--}}
+                <img src="{{asset('UMLIcon.jpg')}}">
                 <div class="caption">
                     <h4 class="pull-right"></h4>
-                    <h4><a href="#">Fourth Product</a>
+                    <h4><a href="#">Unified Modelling Language</a>
                     </h4>
                     <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
@@ -287,10 +287,11 @@
 
         <div class="col-sm-4 col-lg-4 col-md-4">
             <div class="thumbnail">
-                <img src="http://placehold.it/320x150" alt="">
+                {{--<img src="http://placehold.it/320x150" alt="">--}}
+                <img src="{{asset('OOPS.jpg')}}">
                 <div class="caption">
                     <h4 class="pull-right"></h4>
-                    <h4><a href="#">Fifth Product</a>
+                    <h4><a href="#">Object Oriented Programming</a>
                     </h4>
                     <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
@@ -310,10 +311,11 @@
 
         <div class="col-sm-4 col-lg-4 col-md-4">
             <div class="thumbnail">
-                <img src="http://placehold.it/320x150" alt="">
+                <img src="{{asset('sqlserveer2012.jpg')}}">
+                {{--<img src="http://placehold.it/320x150" alt="">--}}
                 <div class="caption">
                     <h4 class="pull-right"></h4>
-                    <h4><a href="#">Fifth Product</a>
+                    <h4><a href="#">SQL Server training</a>
                     </h4>
                     <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
@@ -337,7 +339,8 @@
 
         <div class="col-sm-4 col-lg-4 col-md-4">
             <div class="thumbnail">
-                <img src="http://placehold.it/320x150" alt="">
+                <img src="{{asset('MSBI.jpg')}}">
+                {{--<img src="http://placehold.it/320x150" alt="">--}}
                 <div class="caption">
                     <h4 class="pull-right"></h4>
                     <h4><a href="#">Fourth Product</a>
@@ -360,7 +363,8 @@
 
         <div class="col-sm-4 col-lg-4 col-md-4">
             <div class="thumbnail">
-                <img src="http://placehold.it/320x150" alt="">
+                <img src="{{asset('MVC5.jpg')}}">
+                {{--<img src="http://placehold.it/320x150" alt="">--}}
                 <div class="caption">
                     <h4 class="pull-right"></h4>
                     <h4><a href="#">Fifth Product</a>
@@ -383,7 +387,8 @@
 
         <div class="col-sm-4 col-lg-4 col-md-4">
             <div class="thumbnail">
-                <img src="http://placehold.it/320x150" alt="">
+                <img src="{{asset('Sharepoint.jpg')}}">
+                {{--<img src="http://placehold.it/320x150" alt="">--}}
                 <div class="caption">
                     <h4 class="pull-right"></h4>
                     <h4><a href="#">Fifth Product</a>
@@ -436,12 +441,17 @@
             <p>The entire package includes over 900 hours and additional interview materials to ensure you are prepared for the job market, join now for the success of your future for a low price of just $8.99 per month</p>
         </div>
         <div class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            {{--<img class="img-responsive" src="http://placehold.it/700x450" alt="">--}}
+            <a href="pricing">  <img  class="img-responsive" src="{{asset('BuyMeNowLogo.jpg')}}"></a>
+
         </div>
     </div>
     <!-- /.row -->
 
-    <hr>
+
+
+
+        <hr>
 
     {{--<!-- Call to Action Section -->--}}
     {{--<div class="well">--}}
