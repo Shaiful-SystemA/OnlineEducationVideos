@@ -428,17 +428,35 @@
             <h2 class="page-header">The Awesome Programmer package </h2>
         </div>
         <div class="col-md-6">
-            <p>The Awesome Programmer package includes </p>
+            <p>The Entire  package includes </p>
             <ul>
-                <li><strong>C# </strong>
+                <li><strong>C# in 100 hrs</strong>
                 </li>
                 <li><strong>Angular 1.5 & 2.0 </strong>
                 </li>
                 <li><strong> MSBI</strong>
                 </li>
+                <li><strong>Design Patterns </strong>
+                </li>
+                <li><strong>Microsoft MVC5 </strong>
+                </li>
+                <li><strong> Sharepoint </strong>
+                </li>
+                <li><strong>Window Communication Foundation </strong>
+                </li>
+                <li><strong>Window Presentation Fondation</strong>
+                </li>
+                <li><strong> Visual Studio Tips and Tricks</strong>
+                </li>
+                <li><strong>Unified Modelling Language</strong>
+                </li>
+                <li><strong>SQLServer 2012 </strong>
+                </li>
+                <li><strong> Object Oriented Programming</strong>
+                </li>
 
             </ul>
-            <p>The entire package includes over 900 hours and additional interview materials to ensure you are prepared for the job market, join now for the success of your future for a low price of just $8.99 per month</p>
+            <p>Over 900 hours of quality videos and additional materials to ensure you are prepared for the job market, join now  for a low price of $14.99 per month.</p>
         </div>
         <div class="col-md-6">
             {{--<img class="img-responsive" src="http://placehold.it/700x450" alt="">--}}
